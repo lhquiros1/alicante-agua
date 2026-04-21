@@ -1,0 +1,122 @@
+{
+  "metadatos": {
+    "ciudad": "Alicante",
+    "año": 2024,
+    "proyecto": {
+      "nombre": "Difracciones",
+      "tipo": "Proyecto artístico",
+      "promotor": "Aguas de Alicante"
+    },
+    "fuentes": {
+      "agua": "Aguas de Alicante",
+      "padron": "Ayuntamiento de Alicante"
+    },
+    "equivalencias": {
+      "piscina_m3": 2500,
+      "consumo_mensual": "500–700 piscinas",
+      "red": "≈ Alicante–París (~1.100 km)"
+    }
+  },
+
+  "guia_uso": {
+    "proposito": "Este archivo combina datos y narrativa para explicar el metabolismo del agua en la ciudad de Alicante.",
+    "estructura": "Bloques: consumo, regeneración, depuración e infraestructura.",
+    "interpretacion": {
+      "pct": "Porcentaje sobre el total",
+      "mensual": "Variación temporal",
+      "per_capita": "Escala humana"
+    }
+  },
+
+  "consumo": {
+    "contexto": {
+      "poblacion": 371865,
+      "fuente": "Padrón municipal – Ayuntamiento de Alicante"
+    },
+
+    "resumen": {
+      "total_m3": 17550425,
+      "media_mensual_m3": 1462535,
+      "per_capita_l_dia": 131,
+      "mes_pico": {"mes": 7, "consumo_m3": 1668695},
+      "mes_minimo": {"mes": 12, "consumo_m3": 1291969},
+      "pct": {
+        "domestico": 76.4,
+        "no_domestico": 23.6,
+        "regenerada": 8.1
+      }
+    },
+
+    "mensual": [
+      {"mes":1,"total":1548941,"domestico":1101155,"no_domestico":447786,"regenerada":75893,"pct_dom":71.1,"pct_no_dom":28.9,"pct_reg":4.9},
+      {"mes":2,"total":1338275,"domestico":1086975,"no_domestico":251300,"regenerada":68621,"pct_dom":81.2,"pct_no_dom":18.8,"pct_reg":5.1},
+      {"mes":3,"total":1319465,"domestico":1044999,"no_domestico":274466,"regenerada":98010,"pct_dom":79.2,"pct_no_dom":20.8,"pct_reg":7.4},
+      {"mes":4,"total":1566861,"domestico":1128221,"no_domestico":438640,"regenerada":116358,"pct_dom":72.0,"pct_no_dom":28.0,"pct_reg":7.4},
+      {"mes":5,"total":1432702,"domestico":1086627,"no_domestico":346075,"regenerada":138324,"pct_dom":75.8,"pct_no_dom":24.2,"pct_reg":9.7},
+      {"mes":6,"total":1354285,"domestico":1086185,"no_domestico":268100,"regenerada":144886,"pct_dom":80.2,"pct_no_dom":19.8,"pct_reg":10.7},
+      {"mes":7,"total":1668695,"domestico":1159943,"no_domestico":508752,"regenerada":169407,"pct_dom":69.5,"pct_no_dom":30.5,"pct_reg":10.2},
+      {"mes":8,"total":1486645,"domestico":1138544,"no_domestico":348101,"regenerada":155107,"pct_dom":76.6,"pct_no_dom":23.4,"pct_reg":10.4},
+      {"mes":9,"total":1525892,"domestico":1255371,"no_domestico":270521,"regenerada":126853,"pct_dom":82.3,"pct_no_dom":17.7,"pct_reg":8.3},
+      {"mes":10,"total":1607679,"domestico":1134538,"no_domestico":473141,"regenerada":187590,"pct_dom":70.6,"pct_no_dom":29.4,"pct_reg":11.7},
+      {"mes":11,"total":1409016,"domestico":1103017,"no_domestico":305999,"regenerada":67539,"pct_dom":78.3,"pct_no_dom":21.7,"pct_reg":4.8},
+      {"mes":12,"total":1291969,"domestico":1088788,"no_domestico":203181,"regenerada":73735,"pct_dom":84.3,"pct_no_dom":15.7,"pct_reg":5.7}
+    ],
+
+    "narrativa": "¿Sabías que cada persona en Alicante utiliza unos 130 litros de agua al día? Puede parecer poco, pero sumado a toda la ciudad equivale cada mes a llenar entre 500 y 700 piscinas olímpicas. No todos los meses son iguales: en julio el consumo alcanza su punto más alto, mientras que en diciembre baja a su nivel más bajo. De toda esa agua, unos 76 de cada 100 litros se usan en casa, y el resto sostiene la actividad de la ciudad."
+  },
+
+  "regeneracion": {
+    "resumen": {
+      "media_pct": 8.1,
+      "max_pct": 11.7
+    },
+
+    "narrativa": "¿Sabías que el agua no siempre se pierde después de usarla? Una parte vuelve directamente al sistema como agua regenerada. De cada 100 litros, unos 8 se reutilizan, y en algunos momentos del año esa cantidad aumenta. Es como si la ciudad empezara a recuperar su propia agua."
+  },
+
+  "depuracion": {
+    "resumen": {
+      "tratado_m3": 17530603,
+      "reutilizado_m3": 7007150,
+      "pct": 40
+    },
+
+    "mensual": [
+      {"mes":1,"tratado":1362265,"reutilizado":499727,"pct":36.7},
+      {"mes":2,"tratado":1361673,"reutilizado":518874,"pct":38.1},
+      {"mes":3,"tratado":1361463,"reutilizado":577746,"pct":42.4},
+      {"mes":4,"tratado":1336001,"reutilizado":557816,"pct":41.8},
+      {"mes":5,"tratado":1466697,"reutilizado":659599,"pct":45.0},
+      {"mes":6,"tratado":1481529,"reutilizado":664395,"pct":44.8},
+      {"mes":7,"tratado":1647985,"reutilizado":801285,"pct":48.6},
+      {"mes":8,"tratado":1700393,"reutilizado":862735,"pct":50.7},
+      {"mes":9,"tratado":1565953,"reutilizado":654349,"pct":41.8},
+      {"mes":10,"tratado":1528155,"reutilizado":590226,"pct":38.6},
+      {"mes":11,"tratado":1516671,"reutilizado":318522,"pct":21.0},
+      {"mes":12,"tratado":1400618,"reutilizado":301886,"pct":21.6}
+    ],
+
+    "narrativa": "¿Sabías que el agua que se va por el desagüe no desaparece? Se recoge, se limpia y se transforma. En Alicante, cerca de 4 de cada 10 litros tratados vuelven a utilizarse, y en verano esa proporción puede superar la mitad. El sistema no solo consume agua: también la recupera."
+  },
+
+  "infraestructura": {
+    "resumen": {
+      "red_km": 1130.71,
+      "inspeccion_km": 1873.99,
+      "pct": 165.7
+    },
+
+    "evolucion": [
+      {"año":2020,"red_km":1111.4,"inspeccion_km":1328.92,"pct":119.6},
+      {"año":2021,"red_km":1113.48,"inspeccion_km":1247.14,"pct":112.0},
+      {"año":2022,"red_km":1130.46,"inspeccion_km":1496.57,"pct":132.4},
+      {"año":2023,"red_km":1131.08,"inspeccion_km":1813.7,"pct":160.3},
+      {"año":2024,"red_km":1130.71,"inspeccion_km":1873.99,"pct":165.7},
+      {"año":2025,"red_km":1128.82,"inspeccion_km":1275.92,"pct":113.1}
+    ],
+
+    "narrativa": "¿Sabías que todo esto ocurre gracias a una red invisible bajo tus pies? Más de 1.100 kilómetros de tuberías, una distancia similar a viajar de Alicante a París. Y no solo existe: cada año se inspecciona más de una vez completa, asegurando que todo funcione correctamente."
+  },
+
+  "cierre": "El agua en la ciudad no desaparece: se usa, se transforma y vuelve a circular. Alicante funciona como un organismo vivo donde el agua mantiene el equilibrio del sistema."
+}
