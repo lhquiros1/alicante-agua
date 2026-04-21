@@ -19,7 +19,7 @@ resize();
 // cargar datos
 let datos = null;
 
-fetch('../data/alicante_metabolismo_agua_2024_difracciones.json')
+fetch('./data/alicante_metabolismo_agua_2024_difracciones.json')
   .then(res => res.json())
   .then(json => {
     datos = json;
